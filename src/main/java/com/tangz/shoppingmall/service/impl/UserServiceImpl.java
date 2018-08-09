@@ -18,6 +18,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int checkoutUser(String name, String password) {
+
+        System.out.println(name+"\n"+password);
         User user = userDao.findByName(name);
         if (user == null || !password.equals(user.getPassword())) {
             return 0;

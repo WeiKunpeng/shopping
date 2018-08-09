@@ -14,7 +14,8 @@
             loginForm.addEventListener('submit', function (e) {
                 if (!isSubmiting && this.check()) {
                     var value1 = userName.value;
-                    var value2 = md5(password.value);
+                    var value2 = password.value;
+                    //var value2 = md5(password.value);
                     isSubmiting = true;
                     loading.show();
                     $.ajax({
@@ -29,12 +30,12 @@
                                 loading.hide();
                                 location.href = '/';
                             } else {
-                                loading.result(message || '登录失败');
+                                loading.result(json.message || '登录失败');
                                 isSubmiting = false;
                             }
                         },
                         error: function () {
-                            loading.result(message || '登录失败');
+                            loading.result(json.message || '登录失败');
                             isSubmiting = false;
                         }
                     });

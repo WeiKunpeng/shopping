@@ -27,6 +27,10 @@ public class UserController {
         HttpSession session = request.getSession();
         Map<String, Object> map = new HashMap<String, Object>();
         int ans = userServiceImpl.checkoutUser(name, password);
+
+        System.out.println(ans);
+
+
         if (ans == 0) {
             map.put("code", 0);
         } else {

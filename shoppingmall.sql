@@ -66,7 +66,7 @@ CREATE TABLE `shoppingcart` (
   `goodsIds` varchar(255) NOT NULL,
   `goodsNums` varchar(255) NOT NULL,
   `createTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `updateTime` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `updateTime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
@@ -91,4 +91,6 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', 'buyer', 'e10adc3949ba59abbe56e057f20f883e', '0');
-INSERT INTO `user` VALUES ('2', 'seller', 'e10adc3949ba59abbe56e057f20f883e', '1');
+INSERT INTO `user` VALUES ('2', 'seller','e10adc3949ba59abbe56e057f20f883e', '1');
+
+
