@@ -8,4 +8,7 @@ public interface UserService {
     User findByName(String name);
 
     int checkoutUser(String name, String password);
+
+
+    boolean register(String name,String password);
 }

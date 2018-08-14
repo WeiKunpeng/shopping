@@ -17,7 +17,7 @@ $(function(){
 	                "<td><span class=\"v-num\">" + order.num + "</span></td>" + 
 	                "<td><span class=\"v-unit\">¥</span><span class=\"value\">" + order.totalPrice +"</span></td>" + 
 	                "</tr>";
-					total = total + order.totalPrice;
+					total = total + order.totalPrice
 				}
 				
 				$("#myTable").html(str);

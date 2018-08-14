@@ -29,6 +29,20 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public boolean register(String name, String password) {
+
+
+        User user=userDao.findByName(name);
+        if(user==null){
+            userDao.addOne(name,password,0);
+            return true;
+        }
+
+
+        return false;
+    }
+
+    @Override
     public User findByName(String name) {
         return userDao.findByName(name);
     }
