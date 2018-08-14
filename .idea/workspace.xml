@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb6391c-b08f-4c01-a80a-46c7303ec443" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall.war" afterPath="$PROJECT_DIR$/target/ShoppingMall.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/service/UserService.class" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/com/tangz/shoppingmall/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/tangz/shoppingmall/web/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/DaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/DaoTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/platform.log" afterPath="$PROJECT_DIR$/logs/platform.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tangz/shoppingmall/web/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/html/login.html" afterPath="$PROJECT_DIR$/src/main/webapp/html/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/account.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/account.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/DaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ShoppingMall/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShoppingMall/html/login.html" afterPath="$PROJECT_DIR$/target/ShoppingMall/html/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-    </list>
+    <list default="true" id="fcb6391c-b08f-4c01-a80a-46c7303ec443" name="Default" comment="" />
     <ignored path="ShoppingMall.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -140,9 +110,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,9 +120,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -282,9 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -605,6 +569,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1123,6 +1089,7 @@
       <workItem from="1533868267511" duration="9702000" />
       <workItem from="1533912566804" duration="244000" />
       <workItem from="1534127039994" duration="784000" />
+      <workItem from="1534213316195" duration="140000" />
     </task>
     <servers />
   </component>
@@ -1159,11 +1126,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23183000" />
+    <option name="totallyTimeSpent" value="23323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1264,9 +1231,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,9 +1239,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,9 +1490,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,9 +1498,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
